@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -334,3 +335,17 @@
 
 
 <router-outlet />
+=======
+<div>
+  <label for="DOB: "></label>
+  <input type="date"#dobInput (blur)="calculateAge()"> <!-- local reference variable -->
+</div>
+<div>
+  <label>Age: </label>
+  <input type="text" #ageInput> <!-- local reference variable -->
+</div>
+<app-demo></app-demo>
+<!-- This <app-demo></app-demo> is a child component of app.component -->
+{{ demoComp.sayHello() }}
+<!-- We are calling sayHello() method of demo(child component) -->
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-sixth-angular-project-ng-content",
+=======
+  "name": "my-fourth-angular-project-view-child",
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

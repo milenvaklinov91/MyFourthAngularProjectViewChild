@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "MySixthAngularProjectNgContent": {
+=======
+    "MyFourthAngularProjectViewChild": {
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +27,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/my-sixth-angular-project-ng-content",
+=======
+            "outputPath": "dist/my-fourth-angular-project-view-child",
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +75,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "MySixthAngularProjectNgContent:build:production"
             },
             "development": {
               "buildTarget": "MySixthAngularProjectNgContent:build:development"
+=======
+              "buildTarget": "MyFourthAngularProjectViewChild:build:production"
+            },
+            "development": {
+              "buildTarget": "MyFourthAngularProjectViewChild:build:development"
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +93,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "buildTarget": "MySixthAngularProjectNgContent:build"
+=======
+            "buildTarget": "MyFourthAngularProjectViewChild:build"
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
           }
         },
         "test": {
@@ -101,5 +120,11 @@
         }
       }
     }
+<<<<<<< HEAD
+=======
+  },
+  "cli": {
+    "analytics": false
+>>>>>>> b7030d1c5bc13b2ae30ed10d4a761a68e3836364
   }
 }
